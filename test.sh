@@ -1,4 +1,4 @@
 #testin#
-a= 'df -kh'
-echo a
+a='df -kh'
+echo a >README.md
 
