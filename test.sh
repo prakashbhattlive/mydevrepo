@@ -1,4 +1,5 @@
 #testin#
 a='df -kh'
-echo a >README.md
+b = sh $a
+echo $b >>README.md
 
