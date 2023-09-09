@@ -7,7 +7,7 @@ try:
         user_input = int(input(''' \n Please choose the appropriate choices..:
         1 Base64 Encoder
         2 Base54 decoder
-        3 Exit (Aside from 1 and 2, you can select any number for the exit.)
+        3 Exit (Aside from 1 and 2, you can press any key for the exit.)
         '''))
         if user_input == 1:
             appid = input("Enter your Application ID: ")
@@ -25,4 +25,4 @@ try:
         else:
             break
 except:
-    print(" \n Please select a number for the option value")
+    print(" \n Exit")
